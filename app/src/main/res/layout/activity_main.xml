@@ -6,61 +6,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Math Activity"
-        android:id="@+id/btnMath"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="41dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rus Activity"
-        android:id="@+id/btnRus"
-        android:layout_alignBottom="@+id/btnMath"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Test"
-        android:id="@+id/btnTest"
-        android:layout_below="@+id/btnMath"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="157dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Clubrocker21"
-        android:id="@+id/textView"
-        android:layout_below="@+id/btnTest"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="TmInside"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/btnRus"
-        android:layout_alignRight="@+id/btnRus"
-        android:layout_alignEnd="@+id/btnRus" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="OsBuilder"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/btnMath"
-        android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView" />
-
+    <TextView android:text="Hello World!" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
