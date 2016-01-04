@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EGEshka</string>
+    <string name="title_activity_basic_math">Базовая математика</string>
+    <string name="title_activity_russian">RussianActivity</string>
 </resources>
