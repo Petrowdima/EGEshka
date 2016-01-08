@@ -9,18 +9,23 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Базовая математка"
-        android:id="@+id/bMathBtn"
-        android:layout_alignParentTop="true"
+        android:text="Math Activity"
+        android:id="@+id/btnMath"
+        android:layout_below="@+id/btnRus"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Русский язык"
-        android:id="@+id/RusBtn"
-        android:layout_below="@+id/bMathBtn"
+        android:text="Rus Activity"
+        android:id="@+id/btnRus"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
 </RelativeLayout>
