@@ -249,4 +249,12 @@
         щЁлкать
         экспЕрт
     </string-array>
+
+    <string name="title_activity_basic_math">Базовая математика</string>
+    <string name="title_activity_russian">RussianActivity</string>
+
+    <string name="paronimy_describe">Вот некоторые правила, которые помогут Вам различить паронимы:</string>
+    <string name="paronimy">Паронимы:</string>
+    <string name="paronimy_hard">Словарь наиболее сложных паронимов</string>
+
 </resources>
