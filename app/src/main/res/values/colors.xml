@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="colorPrimary">#1d2f96</color>
     <color name="colorPrimaryDark">#1d2f96</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorrus">#b1959f</color>
+
+<!-- Копия Даниила -->
+    <color name="colorPrimary_">#3F51B5</color>
+    <color name="colorPrimaryDark_">#303F9F</color>
+    <color name="colorAccent_">#FF4081</color>
+<!-- /Копия Даниила -->
+
 
 </resources>
