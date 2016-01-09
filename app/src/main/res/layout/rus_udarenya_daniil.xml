@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Копия файла rus_udarenya.xml присланная мне Даниилом https://vk.com/danek130995 danek130995@github -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="458dp"
+        android:id="@+id/lvudar"
+        android:layout_weight="1.19" />
+
+</LinearLayout>
