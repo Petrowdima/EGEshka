@@ -19,6 +19,35 @@
         <activity android:name=".rus_udarenya"></activity>
         <activity android:name=".voprosi_rus"></activity>
 
+<activity
+            android:name=".basicMathActivity"
+            android:label="@string/title_activity_basic_math"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RussianActivity"
+            android:label="@string/title_activity_russian"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+
+        <activity android:name=".A2"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name=".Paronimy"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".ParonimyFull"
+            android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>
