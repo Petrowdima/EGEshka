@@ -47,7 +47,7 @@ public class RussianActivity extends AppCompatActivity {
 
     }
     public void rus_activity() {
-        setContentView(R.layout.rus);
+        setContentView(R.layout.rus_teor);
         Button A1btn;
         Button A2btn;
 
