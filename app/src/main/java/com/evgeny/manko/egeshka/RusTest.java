@@ -16,7 +16,7 @@ import java.util.Random;
 /**
  * Created by danil on 07.01.2016.
  */
-public class voprosi_rus extends Activity {
+public class RusTest extends Activity {
 
 
     Button btnRusVopr, btnRusVopr2;
