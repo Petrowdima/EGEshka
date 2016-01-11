@@ -5,14 +5,14 @@
     android:weightSum="1">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="А1"
         android:id="@+id/teorA1btn" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="88dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="A2"
         android:id="@+id/teorA2btn" />

@@ -7,10 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import java.sql.SQLException;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button bMathBtn;
     Button rusBtn;
+    DBhelper sqlHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +25,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         bMathBtn.setOnClickListener(this);
         rusBtn.setOnClickListener(this);
+
+        sqlHelper = new DBhelper(getApplicationContext());
+        sqlHelper.create_db();
     }
 
     @Override

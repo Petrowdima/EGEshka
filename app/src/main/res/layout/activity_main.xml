@@ -18,7 +18,9 @@
         android:id="@+id/bMathBtn"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -27,7 +29,9 @@
         android:id="@+id/RusBtn"
         android:layout_below="@+id/bMathBtn"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 <!-- /Копия файла присланная мне Даниилом https://vk.com/danek130995 danek130995@github -->
 
 

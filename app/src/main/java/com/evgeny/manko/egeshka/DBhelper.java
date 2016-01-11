@@ -13,28 +13,19 @@ import java.io.OutputStream;
 import java.sql.SQLException;
 
 /**
- * Created by danil on 07.01.2016.
+ * Created by danildovgal on 07.01.2016.
  */
 
 public class DBhelper  extends SQLiteOpenHelper {
 
-    private static String DB_PATH = "/data/data/com.evgeny.manko.egeshka/databases/";
-    private static String DB_NAME = "voprosi.db";
-    private static final int SCHEMA = 1; // версия базы данных
+    private static final String DB_PATH = "/data/data/com.evgeny.manko.egeshka/databases/";
+    private static final String DB_NAME = "voprosi.db";
     static final String TABLE = "voprosi1";
-
-    public static final String ID = "id";
-    public static final String ANSWERS ="answers";
-    public static final String ANSWER1 ="answer1";
-    public static final String ANSWER2 ="answer2";
-    public static final String ANSWER3 ="answer3";
-    public static final String ANSWER4 ="answer4";
-    public static final String QUESTION ="question";
     public SQLiteDatabase database;
     private Context myContext;
 
     public DBhelper(Context context) {
-        super(context, DB_NAME, null, SCHEMA);
+        super(context, DB_NAME, null, 1);
         this.myContext=context;
     }
 
@@ -72,8 +63,9 @@ public class DBhelper  extends SQLiteOpenHelper {
                 myOutput.close();
                 myInput.close();
             }
+
         }
-        catch(IOException ex){
+        catch (IOException ex){
 
         }
     }

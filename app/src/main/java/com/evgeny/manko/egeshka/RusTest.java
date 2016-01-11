@@ -3,6 +3,7 @@ package com.evgeny.manko.egeshka;
 import android.app.Activity;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -14,9 +15,9 @@ import java.sql.SQLException;
 import java.util.Random;
 
 /**
- * Created by danil on 07.01.2016.
+ * Created by danildovgal on 07.01.2016.
  */
-public class RusTest extends Activity {
+public class RusTest extends AppCompatActivity {
 
 
     Button btnRusVopr, btnRusVopr2;
@@ -55,6 +56,7 @@ public class RusTest extends Activity {
 
 
         final Random random = new Random();
+
         sqlHelper = new DBhelper(getApplicationContext());
 
         super.onResume();
